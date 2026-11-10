@@ -1,37 +1,49 @@
-# Brystal Pearson, CAPM® — Project Manager & Analyst
+# Brystal Pearson, CAPM® — Project & Implementation Professional
 
 **Nashville, TN** | [LinkedIn](https://www.linkedin.com/in/brystal-pearson-capm) | brystal885@gmail.com
 
 ---
 
-Project management professional with experience across healthcare IT, public health data, and enterprise HCM implementations. I build analytical tools and dashboards that help project teams make faster, better-informed decisions.
+I work where data and delivery meet: systems implementation, PMO governance, and the data checks that catch problems before go-live. My experience spans an enterprise SAP SuccessFactors implementation (Deloitte), healthcare capital projects (HCA Healthcare), and public-health data governance (Tennessee Department of Health).
 
-**Currently working in:** SQL · Excel · REDCap · eBuilder · SAP SuccessFactors  
-**Certifications:** CAPM® (PMI) · Generative AI for Project Managers (PMI) · OSHA 10 · PMP in progress  
-**Education:** A.S. Business Administration, Nashville State Community College (3.7 GPA, Cum Laude) · B.B.A. MIS, University of Memphis (Fall 2026)
-
----
-
-## Portfolio
-
-### [Project Portfolio Tracker — Excel + SQL Dashboard](https://github.com/bpearso5/portfolio-projects)
-
-A weekly executive dashboard for a 50-person services firm running 20 active client projects. Replaces five separate PM status emails with a single automated view of project health, budget burn, overdue tasks, and team capacity.
-
-**Built with:** PostgreSQL · Excel (XLOOKUP, SUMIFS, conditional formatting, KPI cards) · Python (openpyxl)
-
-**Highlights:**
-- 8 SQL queries across 5 joined tables — CTEs, CASE-driven health flags, duplicate detection, capacity analysis
-- Automated three-way health flag: Over Budget / At Risk / On Track
-- $95,524 total cost overrun surfaced across 4 projects
-- 14 duplicate time entries caught via `HAVING COUNT(*) > 1` data quality check
-- Fully reproducible: two commands rebuild all data, SQL, and the Excel workbook from scratch
+**Tools:** SQL (MySQL, PostgreSQL, SQLite) · Excel · Python · REDCap · SAP SuccessFactors · ServiceNow · eBuilder · Smartsheet · Asana
+**Certifications:** CAPM® (PMI) · Generative AI for Project Managers (PMI) · OSHA 10 · PMP in progress
+**Education:** A.S. Business Administration, Nashville State Community College (3.7 GPA, Cum Laude) · B.B.A. Management Information Systems, University of Memphis (in progress)
 
 ---
 
-## Next Project
-**Patient Appointment & No-Show Analysis** (in progress) — healthcare domain, appointment scheduling data, no-show rate segmentation and recommendations.
+## Case studies
+
+Every repo uses synthetic data and is labeled as professional experience or an independent demonstration.
+
+### From my professional experience
+
+| Project | What it shows | Built with |
+|---|---|---|
+| [HCM-to-Payroll Data Mapping](https://github.com/bpearso5/hcm-payroll-data-mapping) | Source-to-target mapping spec and 9 SQL integrity checks, rebuilt from my payroll go-live issues log at Deloitte | SQL · Excel · Python |
+| [Capital Project Submission QA](https://github.com/bpearso5/capital-project-submission-qa) | Rejection Pareto, pre-submission checklist, and weekly executive budget report, rebuilt from my HCA capital project work | Excel · Python |
+| [REDCap Governance Audit](https://github.com/bpearso5/redcap-governance-audit) | 7 SQL access-audit checks, a request tracker with SLAs, and a corrective-action log, rebuilt from my REDCap work at TDH | SQL · Excel · Python |
+
+### Independent demonstrations
+
+| Project | What it shows | Built with |
+|---|---|---|
+| [HCM Implementation Charter & RAID Log](https://github.com/bpearso5/hcm-implementation-pmo-artifacts) | PMI-aligned charter with phase gates and a formula-driven RAID log | Excel · Python |
+| [Project Portfolio Tracker](https://github.com/bpearso5/portfolio-projects) | Executive dashboard for 20 projects: health flags, budget burn, capacity, duplicate detection | PostgreSQL · Excel |
+| [Transportation Project Controls Dashboard](https://github.com/bpearso5/tdot-project-controls-dashboard) | Project map, budget burn trend, submittal log, and a data-validation gate | Python · Streamlit |
+
+### Founder project
+
+| Project | What it shows | Built with |
+|---|---|---|
+| [Notary Partner Intelligence Dashboard](https://github.com/bpearso5/notary-partner-intelligence-dashboard) | Referral-partner scoring model and outreach funnel for my mobile notary business | Python · Streamlit |
 
 ---
 
-*Open to Project Manager, Project Analyst, PMO Analyst, and Business Systems Analyst roles in Nashville, TN (on-site, hybrid, or remote).*
+## How I work with AI
+
+I define the problem and the rules, AI tools help draft the code and documents, and I verify the results against a known answer key before anything ships. Each repo says how it was built, and I can walk through any query or formula line by line.
+
+---
+
+*Open to Implementation, PMO, Project Coordinator, and Project Analyst roles in Nashville, TN (on-site, hybrid, or remote).*
