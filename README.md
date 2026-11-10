@@ -30,7 +30,7 @@ Every repo uses synthetic data and is labeled as professional experience or an i
 |---|---|---|
 | [HCM Implementation Charter & RAID Log](https://github.com/bpearso5/hcm-implementation-pmo-artifacts) | PMI-aligned charter with phase gates and a formula-driven RAID log | Excel · Python |
 | [Project Portfolio Tracker](https://github.com/bpearso5/portfolio-projects) | Executive dashboard for 20 projects: health flags, budget burn, capacity, duplicate detection | PostgreSQL · Excel |
-| [Transportation Project Controls Dashboard](https://github.com/bpearso5/tdot-project-controls-dashboard) | Project map, budget burn trend, submittal log, and a data-validation gate | Python · Streamlit |
+| [Transportation Project Controls Dashboard](https://github.com/bpearso5/transportation-project-controls-dashboard) | Project map, budget burn trend, submittal log, and a data-validation gate | Python · Streamlit |
 
 ### Founder project
 
